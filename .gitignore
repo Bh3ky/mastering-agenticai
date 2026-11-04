@@ -1,0 +1,74 @@
+# Python-generated files
+__pycache__/
+*.py[cod]
+build/
+dist/
+wheels/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets / API keys (agentic work will need these)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.*
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Datasets and downloaded files (torchvision/HF download here)
+data/
+datasets/
+*.csv
+*.parquet
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+
+# Model weights / checkpoints
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.bin
+checkpoints/
+models/
+
+# Experiment tracking and logs
+runs/
+wandb/
+mlruns/
+lightning_logs/
+tensorboard/
+outputs/
+logs/
+*.log
+
+# Caches and tooling
+.cache/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.huggingface/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Claude Code local settings
+.claude/settings.local.json
